@@ -6,8 +6,10 @@
       <class name="test.TestCaseClass">
         <methods>
           <include name="afterTest"/>
+          <include name="adminTestCase"/>
+          <include name="dashboardTestCase"/>
           <include name="beforeTest"/>
-          <include name="testcases"/>
+          <include name="loginTestCase"/>
         </methods>
       </class> <!-- test.TestCaseClass -->
     </classes>
